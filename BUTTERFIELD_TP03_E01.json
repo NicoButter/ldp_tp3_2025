@@ -1,0 +1,33 @@
+{
+    "institucion":"Universidad",
+    "nombre":"Universidad Nacional de la Patagonia Austral",
+    "Pais":"Argentina",
+    "Ciudad":"Río Gallegos",
+    "Fundación":2025,
+    "carreras":[
+        {
+            "carrera_1":"Analista de Sistemas",
+            "asignaturas":[
+                "Matemática 1",
+                "Matemática 2",
+                "Programación orientada a objetos"
+            ]    
+        },    
+        {    
+            "carrera_2":"Licenciatura en Sistemas",
+            "asignaturas":[
+                "Matemática 1",
+                "Matemática 2",
+                "Programación orientada a objetos"
+            ]
+        },
+        {
+            "carrera_3":"Ingeniería en Sistemas",
+            "asignaturas":[
+                "Matemática 1",
+                "Matemática 2",
+                "Programación orientada a objetos"
+            ]
+        }
+    ]
+}
