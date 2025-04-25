@@ -1,4 +1,10 @@
 {
+  "comentarios": {
+    "descripcion": "Ejercicio de la materia 'Laboratorio de Programación' de la carrera Licenciatura en Sistemas, Universidad Nacional de la Patagonia Austral.",
+    "detalles": "Este archivo JSON representa la estructura de datos de una universidad, incluyendo carreras, asignaturas y alumnos, y fue realizado como parte del trabajo práctico N°03 ejercicio 01 A.",
+    "autor": "Nicolás Butterfield",
+    "anio": "2025"
+  },
   "institucion": "Universidad",
   "nombre": "Universidad Nacional de la Patagonia Austral",
   "Pais": "Argentina",
@@ -75,3 +81,4 @@
     }
   ]
 }
+

@@ -1,0 +1,130 @@
+{
+  "comentarios": {
+    "descripcion": "Ejercicio de la materia 'Laboratorio de Programación' de la carrera Licenciatura en Sistemas, Universidad Nacional de la Patagonia Austral.",
+    "detalles": "Este archivo JSON representa la estructura de datos de una universidad, incluyendo carreras, asignaturas y alumnos, y fue realizado como parte del trabajo práctico N°03 ejercicio 01 B.",
+    "autor": "Nicolás Butterfield",
+    "anio": "2025"
+  },
+  "universidad": {
+    "nombre": "Universidad Nacional de la Patagonia Austral",
+    "pais": "Argentina",
+    "ciudad": "Río Gallegos",
+    "fundacion": "1995",
+    "carreras": {
+      "carrera": [
+        {
+          "id": "001",
+          "nombre": "Analista de Sistemas",
+          "duracion": "3 anios",
+          "cantidad_horas": "1500",
+          "materias": "40"
+        },
+        {
+          "id": "002",
+          "nombre": "Licenciatura en Sistemas",
+          "duracion": "5 anios",
+          "cantidad_horas": "5000",
+          "materias": "65"
+        },
+        {
+          "id": "003",
+          "nombre": "Ingeniería en sistemas",
+          "duracion": "6 anios",
+          "cantidad_horas": "6300",
+          "materias": "70"
+        }
+      ]
+    },
+    "asignaturas": {
+      "asignatura": [
+        {
+          "id": "0001",
+          "carrera": "001",
+          "nombre": "Matemática 1",
+          "anio_de_la_carrera": "1",
+          "cuatrimestre": {
+            "@cuatrimestre": "Primero",
+            "#text": "Primer cuatrimestre"
+          },
+          "total_de_horas": "120"
+        },
+        {
+          "id": "0002",
+          "carrera": "002",
+          "nombre": "Programacion Orientada a Objetos",
+          "anio_de_la_carrera": "2",
+          "cuatrimestre": {
+            "@cuatrimestre": "Primero",
+            "#text": "Primer cuatrimestre"
+          },
+          "total_de_horas": "120"
+        },
+        {
+          "id": "0003",
+          "carrera": "003",
+          "nombre": "Matemática 2",
+          "anio_de_la_carrera": "1",
+          "cuatrimestre": {
+            "@cuatrimestre": "Segundo",
+            "#text": "Segundo Cuatrimestre"
+          },
+          "total_de_horas": "120"
+        },
+        {
+          "id": "0004",
+          "carrera": "002",
+          "nombre": "Bases de Datos",
+          "anio_de_la_carrera": "2",
+          "cuatrimestre": {
+            "@cuatrimestre": "Segundo",
+            "#text": "Segundo cuatrimestre"
+          },
+          "total_de_horas": "120"
+        }
+      ]
+    },
+    "alumnos": {
+      "alumno": [
+        {
+          "id": "10001",
+          "apellido": "González",
+          "nombre": "Juan",
+          "sexo": "M",
+          "estudios": {
+            "carrera": {
+              "@codigo": "001"
+            }
+          },
+          "asignaturas": {
+            "asignatura": [
+              {
+                "@codigo": "0001"
+              },
+              {
+                "@codigo": "0002"
+              }
+            ]
+          }
+        },
+        {
+          "id": "10002",
+          "apellido": "Pérez",
+          "nombre": "María",
+          "sexo": "F",
+          "estudios": {
+            "carrera": {
+              "@codigo": "002"
+            }
+          },
+          "asignaturas": {
+            "asignatura": [
+              {
+                "@codigo": "0004"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
