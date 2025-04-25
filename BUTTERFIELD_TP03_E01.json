@@ -1,33 +1,77 @@
 {
-    "institucion":"Universidad",
-    "nombre":"Universidad Nacional de la Patagonia Austral",
-    "Pais":"Argentina",
-    "Ciudad":"Río Gallegos",
-    "Fundación":2025,
-    "carreras":[
-        {
-            "carrera_1":"Analista de Sistemas",
-            "asignaturas":[
-                "Matemática 1",
-                "Matemática 2",
-                "Programación orientada a objetos"
-            ]    
-        },    
-        {    
-            "carrera_2":"Licenciatura en Sistemas",
-            "asignaturas":[
-                "Matemática 1",
-                "Matemática 2",
-                "Programación orientada a objetos"
-            ]
-        },
-        {
-            "carrera_3":"Ingeniería en Sistemas",
-            "asignaturas":[
-                "Matemática 1",
-                "Matemática 2",
-                "Programación orientada a objetos"
-            ]
-        }
-    ]
+  "institucion": "Universidad",
+  "nombre": "Universidad Nacional de la Patagonia Austral",
+  "Pais": "Argentina",
+  "Ciudad": "Río Gallegos",
+  "Fundación": 2025,
+  "carreras": [
+    {
+      "carrera": "Analista de Sistemas",
+      "id_carrera": 1,
+      "duracion_anios": 3,
+      "cantidad_de_horas": 3000,
+      "materias": "40",
+
+      "asignaturas": [
+        "Matemática 1",
+        "Matemática 2",
+        "Programación orientada a objetos"
+      ]
+    },
+    {
+      "carrera": "Licenciatura en Sistemas",
+      "id_carrera": 2,
+      "duracion_anios": 5,
+      "cantidad_de_horas": 5000,
+      "materias": 65,
+
+      "asignaturas": [
+        "Matemática 1",
+        "Matemática 2",
+        "Programación orientada a objetos"
+      ]
+    },
+    {
+      "carrera_3": "Ingeniería en Sistemas",
+      "id_carrera": 3,
+      "duracion_anios": 6,
+      "cantidad_de_horas": 6300,
+      "materias": 70
+    }
+  ],
+  "asignaturas": [
+    {
+      "id_asignatura": 1,
+      "nombre": "Matemática 1",
+      "carrera": [1, 2, 3],
+      "anio_de_la_carrera": 1,
+      "cuatrimestre": "Primer cuatrimestre"
+    },
+    {
+      "id_asignatura": 2,
+      "nombre": "Matemática 2",
+      "carrera": [1, 2, 3],
+      "anio_de_la_carrera": 1,
+      "cuatrimestre": "Segundo cuatrimestre"
+    },
+    {
+      "id_asignatura": 3,
+      "nombre": "Programación orientada a objetos",
+      "carrera": [1, 2, 3],
+      "anio_de_la_carrera": 2,
+      "cuatrimestre": "Primer cuatrimestre"
+    }
+  ],
+  "Alumnos": [
+    {
+      "Nombre": "Juan",
+      "Apellido": "Gonzales",
+      "sexo": "Masculino"
+    },
+    {
+      "Nombre": "Maria",
+      "Apellido": "Perez",
+      "sexo": "Masculino"
+    }
+  ]
 }
