@@ -1,0 +1,144 @@
+{
+    "metadata": {
+      "sistema": "Gestión de Películas (IMDb-like)",
+      "version": "1.0",
+      "autor": "Nicolás Butterfield"
+    },
+    "peliculas": [
+      {
+        "id": "P001",
+        "titulo": "El Padrino",
+        "titulo_original": "The Godfather",
+        "anio": 1972,
+        "duracion_minutos": 175,
+        "argumento": "La historia de una familia mafiosa y su lucha por mantener el poder en Nueva York.",
+        "generos": ["Crimen", "Drama"],
+        "director_id": "D001",
+        "protagonistas_ids": ["A001", "A002"]
+      },
+      {
+        "id": "P002",
+        "titulo": "Pulp Fiction",
+        "titulo_original": "Pulp Fiction",
+        "anio": 1994,
+        "duracion_minutos": 154,
+        "argumento": "Historias interconectadas de criminales en Los Ángeles.",
+        "generos": ["Crimen", "Thriller"],
+        "director_id": "D002",
+        "protagonistas_ids": ["A003", "A004"]
+      },
+      {
+        "id": "P003",
+        "titulo": "El Señor de los Anillos: La Comunidad del Anillo",
+        "titulo_original": "The Lord of the Rings: The Fellowship of the Ring",
+        "anio": 2001,
+        "duracion_minutos": 178,
+        "argumento": "Un hobbit emprende un viaje para destruir un anillo malévolo.",
+        "generos": ["Aventura", "Fantasía"],
+        "director_id": "D003",
+        "protagonistas_ids": ["A005", "A006"]
+      },
+      {
+        "id": "P004",
+        "titulo": "Inception",
+        "titulo_original": "Inception",
+        "anio": 2010,
+        "duracion_minutos": 148,
+        "argumento": "Un ladrón que roba secretos a través de los sueños es encargado de implantar una idea en la mente de un CEO.",
+        "generos": ["Ciencia Ficción", "Thriller"],
+        "director_id": "D004",
+        "protagonistas_ids": ["A007", "A008"]
+      },
+      {
+        "id": "P005",
+        "titulo": "Parasite",
+        "titulo_original": "기생충",
+        "anio": 2019,
+        "duracion_minutos": 132,
+        "argumento": "Una familia pobre infiltra a sus miembros en los hogares de una familia adinerada.",
+        "generos": ["Drama", "Thriller"],
+        "director_id": "D005",
+        "protagonistas_ids": ["A009", "A010"]
+      }
+    ],
+    "directores": [
+      {
+        "id": "D001",
+        "nombre": "Francis Ford Coppola",
+        "nacionalidad": "Estados Unidos"
+      },
+      {
+        "id": "D002",
+        "nombre": "Quentin Tarantino",
+        "nacionalidad": "Estados Unidos"
+      },
+      {
+        "id": "D003",
+        "nombre": "Peter Jackson",
+        "nacionalidad": "Nueva Zelanda"
+      },
+      {
+        "id": "D004",
+        "nombre": "Christopher Nolan",
+        "nacionalidad": "Reino Unido"
+      },
+      {
+        "id": "D005",
+        "nombre": "Bong Joon-ho",
+        "nacionalidad": "Corea del Sur"
+      }
+    ],
+    "actores": [
+      {
+        "id": "A001",
+        "nombre": "Marlon Brando",
+        "personaje": "Don Vito Corleone"
+      },
+      {
+        "id": "A002",
+        "nombre": "Al Pacino",
+        "personaje": "Michael Corleone"
+      },
+      {
+        "id": "A003",
+        "nombre": "John Travolta",
+        "personaje": "Vincent Vega"
+      },
+      {
+        "id": "A004",
+        "nombre": "Samuel L. Jackson",
+        "personaje": "Jules Winnfield"
+      },
+      {
+        "id": "A005",
+        "nombre": "Elijah Wood",
+        "personaje": "Frodo Bolsón"
+      },
+      {
+        "id": "A006",
+        "nombre": "Ian McKellen",
+        "personaje": "Gandalf"
+      },
+      {
+        "id": "A007",
+        "nombre": "Leonardo DiCaprio",
+        "personaje": "Dom Cobb"
+      },
+      {
+        "id": "A008",
+        "nombre": "Joseph Gordon-Levitt",
+        "personaje": "Arthur"
+      },
+      {
+        "id": "A009",
+        "nombre": "Song Kang-ho",
+        "personaje": "Kim Ki-taek"
+      },
+      {
+        "id": "A010",
+        "nombre": "Lee Sun-kyun",
+        "personaje": "Park Dong-ik"
+      }
+    ]
+  }
+  
