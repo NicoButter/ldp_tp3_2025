@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sistema_gestor_peliculas>
+  <metadata>
+    <sistema>Gestión de Películas (IMDb-like)</sistema>
+    <version>1.0</version>
+    <autor>Nicolás Butterfield</autor>
+  </metadata>
+  
+  <!-- Películas -->
+  <peliculas>
+    <pelicula id="P001">
+      <titulo>El Padrino</titulo>
+      <titulo_original>The Godfather</titulo_original>
+      <anio>1972</anio>
+      <duracion_minutos>175</duracion_minutos>
+      <argumento>La historia de una familia mafiosa y su lucha por mantener el poder en Nueva York.</argumento>
+      <generos>
+        <genero>Crimen</genero>
+        <genero>Drama</genero>
+      </generos>
+      <director ref="D001"/>
+      <protagonistas>
+        <actor ref="A001"/>
+        <actor ref="A002"/>
+      </protagonistas>
+    </pelicula>
+    
+    <pelicula id="P002">
+      <titulo>Pulp Fiction</titulo>
+      <titulo_original>Pulp Fiction</titulo_original>
+      <anio>1994</anio>
+      <duracion_minutos>154</duracion_minutos>
+      <argumento>Historias interconectadas de criminales en Los Ángeles.</argumento>
+      <generos>
+        <genero>Crimen</genero>
+        <genero>Thriller</genero>
+      </generos>
+      <director ref="D002"/>
+      <protagonistas>
+        <actor ref="A003"/>
+        <actor ref="A004"/>
+      </protagonistas>
+    </pelicula>
+    
+    <!-- Películas P003 a P005 con misma estructura -->
+    <pelicula id="P003">
+      <titulo>El Señor de los Anillos: La Comunidad del Anillo</titulo>
+      <titulo_original>The Lord of the Rings: The Fellowship of the Ring</titulo_original>
+      <anio>2001</anio>
+      <duracion_minutos>178</duracion_minutos>
+      <argumento>Un hobbit emprende un viaje para destruir un anillo malévolo.</argumento>
+      <generos>
+        <genero>Aventura</genero>
+        <genero>Fantasía</genero>
+      </generos>
+      <director ref="D003"/>
+      <protagonistas>
+        <actor ref="A005"/>
+        <actor ref="A006"/>
+      </protagonistas>
+    </pelicula>
+    
+    <pelicula id="P004">
+      <titulo>Inception</titulo>
+      <titulo_original>Inception</titulo_original>
+      <anio>2010</anio>
+      <duracion_minutos>148</duracion_minutos>
+      <argumento>Un ladrón que roba secretos a través de los sueños es encargado de implantar una idea en la mente de un CEO.</argumento>
+      <generos>
+        <genero>Ciencia Ficción</genero>
+        <genero>Thriller</genero>
+      </generos>
+      <director ref="D004"/>
+      <protagonistas>
+        <actor ref="A007"/>
+        <actor ref="A008"/>
+      </protagonistas>
+    </pelicula>
+    
+    <pelicula id="P005">
+      <titulo>Parasite</titulo>
+      <titulo_original>기생충</titulo_original>
+      <anio>2019</anio>
+      <duracion_minutos>132</duracion_minutos>
+      <argumento>Una familia pobre infiltra a sus miembros en los hogares de una familia adinerada.</argumento>
+      <generos>
+        <genero>Drama</genero>
+        <genero>Thriller</genero>
+      </generos>
+      <director ref="D005"/>
+      <protagonistas>
+        <actor ref="A009"/>
+        <actor ref="A010"/>
+      </protagonistas>
+    </pelicula>
+  </peliculas>
+  
+  <!-- Directores -->
+  <directores>
+    <director id="D001">
+      <nombre>Francis Ford Coppola</nombre>
+      <nacionalidad>Estados Unidos</nacionalidad>
+    </director>
+    <director id="D002">
+      <nombre>Quentin Tarantino</nombre>
+      <nacionalidad>Estados Unidos</nacionalidad>
+    </director>
+    <director id="D003">
+      <nombre>Peter Jackson</nombre>
+      <nacionalidad>Nueva Zelanda</nacionalidad>
+    </director>
+    <director id="D004">
+      <nombre>Christopher Nolan</nombre>
+      <nacionalidad>Reino Unido</nacionalidad>
+    </director>
+    <director id="D005">
+      <nombre>Bong Joon-ho</nombre>
+      <nacionalidad>Corea del Sur</nacionalidad>
+    </director>
+  </directores>
+  
+  <!-- Actores -->
+  <actores>
+    <actor id="A001">
+      <nombre>Marlon Brando</nombre>
+      <personaje>Don Vito Corleone</personaje>
+    </actor>
+    <actor id="A002">
+      <nombre>Al Pacino</nombre>
+      <personaje>Michael Corleone</personaje>
+    </actor>
+    <actor id="A003">
+      <nombre>John Travolta</nombre>
+      <personaje>Vincent Vega</personaje>
+    </actor>
+    <actor id="A004">
+      <nombre>Samuel L. Jackson</nombre>
+      <personaje>Jules Winnfield</personaje>
+    </actor>
+    <actor id="A005">
+      <nombre>Elijah Wood</nombre>
+      <personaje>Frodo Bolsón</personaje>
+    </actor>
+    <actor id="A006">
+      <nombre>Ian McKellen</nombre>
+      <personaje>Gandalf</personaje>
+    </actor>
+    <actor id="A007">
+      <nombre>Leonardo DiCaprio</nombre>
+      <personaje>Dom Cobb</personaje>
+    </actor>
+    <actor id="A008">
+      <nombre>Joseph Gordon-Levitt</nombre>
+      <personaje>Arthur</personaje>
+    </actor>
+    <actor id="A009">
+      <nombre>Song Kang-ho</nombre>
+      <personaje>Kim Ki-taek</personaje>
+    </actor>
+    <actor id="A010">
+      <nombre>Lee Sun-kyun</nombre>
+      <personaje>Park Dong-ik</personaje>
+    </actor>
+  </actores>
+</sistema_gestor_peliculas>
